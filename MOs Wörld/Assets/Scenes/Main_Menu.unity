@@ -277,7 +277,7 @@ GameObject:
   - component: {fileID: 691185854}
   - component: {fileID: 691185853}
   m_Layer: 5
-  m_Name: Start Button
+  m_Name: Spielen Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -667,7 +667,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: START
+  m_Text: SPIELEN
 --- !u!222 &927244995
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1029,7 +1029,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9942c035f7260ec499e2edf0e34740bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: Level 1
+  sceneName: Levelkarte
 --- !u!1 &1949329206
 GameObject:
   m_ObjectHideFlags: 0
