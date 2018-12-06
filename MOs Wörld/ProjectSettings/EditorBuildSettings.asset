@@ -12,12 +12,18 @@ EditorBuildSettings:
     path: Assets/Scenes/Level_2.unity
     guid: 4cea36827be7cbd48a8b05fd9a4d1cbd
   - enabled: 1
-    path: Assets/Scenes/Level_3 (akt. Kopie Lvl 1).unity
+    path: Assets/Scenes/Level_3.unity
     guid: 2379e2670c451084385c565cb19c48be
+  - enabled: 1
+    path: Assets/Scenes/End_of_Game_positive.unity
+    guid: e7d796c430c651149b613aa6ad76003b
+  - enabled: 1
+    path: Assets/Scenes/End_of_Game_negative.unity
+    guid: caf91bee3a9d21148a35405beb18668a
   - enabled: 1
     path: Assets/Scenes/Main_Menu.unity
     guid: 1c6578b9abf98f449af9905839cf18af
   - enabled: 1
-    path: Assets/Scenes/Levelkarte.unity
+    path: Assets/Scenes/Level_Selection.unity
     guid: 1ac5278b02bc2b8489d67f149dbe04da
   m_configObjects: {}

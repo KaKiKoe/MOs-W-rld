@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 
 public class LevelManager : MonoBehaviour {
@@ -15,6 +16,9 @@ public class LevelManager : MonoBehaviour {
   
   public int health;
   public Text healthText;
+
+  public Text TimerText;
+  public float roundTimer;
 
   void Start()
   {
@@ -30,6 +34,14 @@ public class LevelManager : MonoBehaviour {
       Debug.Log("Spiel wird beendet");
       Application.Quit();
     }
+    
+    roundTimer = roundTimer - Time.deltaTime;
+    TimerText.text = roundTimer.ToString();
+
+    if (roundTimer <= 0f)
+    {
+      SceneManager.LoadScene("End_fail");
+    }
   }
 
 
@@ -39,7 +51,7 @@ public class LevelManager : MonoBehaviour {
   //Player.transform.position = currentCheckpoint.transform.position;
 
   //Leben abziehen
-  health = health - 1;
+    health = health - 1;
     //Lebensanzeige aktualisieren
     healthText.text = health.ToString();
     //Überprüfen ob Spieler noch Leben hat
@@ -50,9 +62,10 @@ public class LevelManager : MonoBehaviour {
     }
     else
     {
-      Time.timeScale = 0.0f;
+      //falls nein -> Spielende
+      //Time.timeScale = 0.0f;
+      SceneManager.LoadScene("End_fail");
     }
 
-    //falls nein -> Spielende
   }	
 }
