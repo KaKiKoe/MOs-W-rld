@@ -20,7 +20,7 @@ public class PlayerControll : MonoBehaviour
 
   void PositionMo()
   {
-    if (rb.position.y < -5)
+    if (rb.position.y < -6)
     {
       rb.gravityScale = -15;
     }
