@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4551544361642152}
   - component: {fileID: 212470457416501968}
   - component: {fileID: 60508876865722298}
-  - component: {fileID: 82264249671235870}
+  - component: {fileID: 82926362340930630}
   m_Layer: 0
   m_Name: Bubble00
   m_TagString: Bubble
@@ -514,7 +514,7 @@ PolygonCollider2D:
       - {x: 0.19, y: 2.23}
       - {x: 0.17999999, y: 2.26}
       - {x: -0.11, y: 2.26}
---- !u!82 &82264249671235870
+--- !u!82 &82926362340930630
 AudioSource:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
