@@ -10,6 +10,7 @@ public class PlayerControll : MonoBehaviour
 
   private Rigidbody2D rb;
   private Vector2 moveVelocity;
+   
 
   // Use this for initialization
   void Start()
@@ -23,6 +24,8 @@ public class PlayerControll : MonoBehaviour
     if (rb.position.y < -6)
     {
       rb.gravityScale = -15;
+
+
     }
     else
     {
