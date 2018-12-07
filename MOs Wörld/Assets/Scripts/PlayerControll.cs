@@ -18,6 +18,18 @@ public class PlayerControll : MonoBehaviour
 
   }
 
+  void PositionMo()
+  {
+    if (rb.position.y < -5)
+    {
+      rb.gravityScale = -15;
+    }
+    else
+    {
+      rb.gravityScale = 15;
+    }
+  }
+
   // Update is called once per frame
   void Update()
   {
@@ -28,6 +40,7 @@ public class PlayerControll : MonoBehaviour
   private void FixedUpdate()
   {
     rb.MovePosition(rb.position + moveVelocity * Time.fixedDeltaTime);
+    PositionMo();
   }
 
 }
