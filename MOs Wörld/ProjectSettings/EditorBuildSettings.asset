@@ -15,10 +15,10 @@ EditorBuildSettings:
     path: Assets/Scenes/Level_3.unity
     guid: 2379e2670c451084385c565cb19c48be
   - enabled: 1
-    path: Assets/Scenes/End_of_Game_positive.unity
+    path: Assets/Scenes/End_success.unity
     guid: e7d796c430c651149b613aa6ad76003b
   - enabled: 1
-    path: Assets/Scenes/End_of_Game_negative.unity
+    path: Assets/Scenes/End_fail.unity
     guid: caf91bee3a9d21148a35405beb18668a
   - enabled: 1
     path: Assets/Scenes/Main_Menu.unity
