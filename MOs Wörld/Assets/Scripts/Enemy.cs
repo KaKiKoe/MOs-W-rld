@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class Enemy : MonoBehaviour {
 
 
-  LevelManager levelManager;
+  public LevelManager levelManager;
   // Use this for initialization
   void Start()
   {
@@ -23,7 +23,7 @@ public class Enemy : MonoBehaviour {
     if (collision.gameObject.tag == "Player")
     {
       //SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-
+      Debug.Log("ein Leben verloren");
       levelManager.RespawnPlayer();
     }
   }

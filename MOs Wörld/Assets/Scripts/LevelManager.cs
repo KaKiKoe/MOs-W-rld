@@ -7,9 +7,9 @@ using UnityEngine.SceneManagement;
 
 public class LevelManager : MonoBehaviour {
 
-  //public GameObject currentCheckpoint;
+  public GameObject currentCheckpoint;
 
-  
+
   public GameObject Player;
  
 
@@ -47,10 +47,7 @@ public class LevelManager : MonoBehaviour {
 
   public void RespawnPlayer()
   {
-  
-  //Player.transform.position = currentCheckpoint.transform.position;
-
-  //Leben abziehen
+    //Leben abziehen
     health = health - 1;
     //Lebensanzeige aktualisieren
     healthText.text = health.ToString();
@@ -58,7 +55,7 @@ public class LevelManager : MonoBehaviour {
     if(health > 0)
     {
       //falls ja -> Respawn
-      Player.transform.position = Player.transform.position;
+      Player.transform.position = currentCheckpoint.transform.position;
     }
     else
     {
