@@ -49,11 +49,11 @@ public class BreathScript : MonoBehaviour
       collision.gameObject.GetComponent<Renderer>().enabled = false;
 
       // Sound des Bubbles abspielen
-      AudioSource audio = collision.gameObject.GetComponent<AudioSource>();
-      audio.Play();
+      //AudioSource audio = collision.gameObject.GetComponent<AudioSource>();
+      //audio.Play();
 
       //Bubble zerstören
-      Destroy(collision.gameObject, audio.clip.length);
+      Destroy(collision.gameObject); //, audio.clip.length);
 
       //Atemanzeige auffüllen
       breathBarSlider.value += .500f;
