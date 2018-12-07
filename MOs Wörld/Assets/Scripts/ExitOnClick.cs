@@ -6,15 +6,17 @@ public class ExitOnClick : MonoBehaviour {
 
 	public void Quit()
   {
-    Debug.Log("Button Geklickt und SPiel verlassen");
+    Debug.Log("Button Geklickt und Spiel verlassen");
 
-    if (UnityEditor.EditorApplication.isPlaying == true)
-    {
-      UnityEditor.EditorApplication.isPlaying = false;
-    }
-    else
-    {
-      Application.Quit();
-    }
+    Application.Quit();
+
+    //if (UnityEditor.EditorApplication.isPlaying == true)
+    //{
+    //  UnityEditor.EditorApplication.isPlaying = false;
+    //}
+    //else
+    //{
+    //  Application.Quit();
+    //}
   }
 }
