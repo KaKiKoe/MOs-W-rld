@@ -13,7 +13,7 @@ public class BreathScript : MonoBehaviour
   void Start()
   {
     rb = GetComponent<Rigidbody2D>();
-    breathBarSlider.value = 100;
+    breathBarSlider.value = 1;
   }
 
   // Update is called once per frame
@@ -32,12 +32,31 @@ public class BreathScript : MonoBehaviour
       }
       else
       {
-        breathBarSlider.value += .003f;
+        breathBarSlider.value += .006f;
       }
     }
     else 
     {
       SceneManager.LoadScene("End_fail");
+    }
+  }
+
+  private void OnTriggerEnter2D(Collider2D collision)
+  {
+    if (collision.tag == "Bubble")
+    {
+      //Grafik deaktivieren
+      collision.gameObject.GetComponent<Renderer>().enabled = false;
+
+      // Sound des Bubbles abspielen
+      AudioSource audio = collision.gameObject.GetComponent<AudioSource>();
+      audio.Play();
+
+      //Bubble zerstören
+      Destroy(collision.gameObject, audio.clip.length);
+
+      //Atemanzeige auffüllen
+      breathBarSlider.value += .500f;
     }
   }
 }

@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-public class Player : MonoBehaviour {
+public class Player : MonoBehaviour 
 
-
+{
   private int coinCounter;
   private int starCounter;
   public Text scoreText;
@@ -56,8 +56,8 @@ public class Player : MonoBehaviour {
     if (collision.tag == "Star")
     {
     
-    //Grafik deaktivieren
-    collision.gameObject.GetComponent<Renderer>(). enabled = false;
+      //Grafik deaktivieren
+      collision.gameObject.GetComponent<Renderer>(). enabled = false;
 
       // Sound des Sterns abspielen
       AudioSource audio = collision.gameObject.GetComponent<AudioSource>();
