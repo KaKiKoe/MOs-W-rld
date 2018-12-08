@@ -17,6 +17,7 @@ public class StartOnClick : MonoBehaviour {
     PlayerPrefs.SetInt("Level_Selection", 1);
     PlayerPrefs.SetInt("End_fail", 1);
     PlayerPrefs.SetInt("End_success", 1);
+    PlayerPrefs.SetInt("Shop", 1);
 
     if (PlayerPrefs.GetInt(sceneToLoad.ToString()) == 1)
     {
