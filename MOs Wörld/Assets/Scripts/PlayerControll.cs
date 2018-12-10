@@ -24,12 +24,14 @@ public class PlayerControll : MonoBehaviour
     if (rb.position.y < -6)
     {
       rb.gravityScale = -15;
-
-
     }
-    else
+    else 
     {
       rb.gravityScale = 15;
+    } 
+    if (rb.position.y == -6)
+    {
+      rb.gravityScale = 0;
     }
   }
 
