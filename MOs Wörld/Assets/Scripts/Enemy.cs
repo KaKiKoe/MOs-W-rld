@@ -25,6 +25,7 @@ public class Enemy : MonoBehaviour {
       //SceneManager.LoadScene(SceneManager.GetActiveScene().name);
       Debug.Log("ein Leben verloren");
       levelManager.RespawnPlayer();
+      Debug.Log("du wirst an den currentCheckpoint versetzt");
     }
   }
 }

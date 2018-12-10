@@ -9,9 +9,7 @@ public class LevelManager : MonoBehaviour {
 
   public GameObject currentCheckpoint;
 
-
   public GameObject Player;
- 
 
   
   public int health;
@@ -25,8 +23,9 @@ public class LevelManager : MonoBehaviour {
     healthText.text = health.ToString();
   }
 
-  // Update is called once per frame
-  void Update()
+  
+    // Update is called once per frame
+    void Update()
   {
     if (Input.GetKeyDown(KeyCode.Escape))
     {
@@ -42,9 +41,8 @@ public class LevelManager : MonoBehaviour {
     {
       SceneManager.LoadScene("End_fail");
     }
+   
   }
-
-
   public void RespawnPlayer()
   {
     //Leben abziehen
@@ -52,7 +50,7 @@ public class LevelManager : MonoBehaviour {
     //Lebensanzeige aktualisieren
     healthText.text = health.ToString();
     //Überprüfen ob Spieler noch Leben hat
-    if(health > 0)
+    if (health > 0)
     {
       //falls ja -> Respawn
       Player.transform.position = currentCheckpoint.transform.position;
@@ -63,6 +61,5 @@ public class LevelManager : MonoBehaviour {
       //Time.timeScale = 0.0f;
       SceneManager.LoadScene("End_fail");
     }
-
-  }	
+  }
 }

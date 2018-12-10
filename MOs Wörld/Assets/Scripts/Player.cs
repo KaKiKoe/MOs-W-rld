@@ -14,7 +14,7 @@ public class Player : MonoBehaviour
   int coinCounter;
 
   // Use this for initialization
-  void Start () 
+  void Start ()
   {
     stayAlive = GameObject.Find("StayAlive").GetComponent<StayAlive>();
 
