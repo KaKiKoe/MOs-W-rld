@@ -54,10 +54,13 @@ public class PlayerControll : MonoBehaviour
       animator.SetBool("RotatingRight", true);
       animator.SetBool("RotatingLeft", false);
     }
-    //if (Input.GetKeyDown(KeyCode.LeftAlt))
-    //{
-    //  animator.SetBool("IsFlyingLeft", true);
-    //}
+
+    if (rb.position.y < -5.4)
+    {
+      animator.SetBool("UnderWater", true);
+    }
+    
+   
   }
 
   private void FixedUpdate()
