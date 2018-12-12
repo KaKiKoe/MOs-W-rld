@@ -42,16 +42,18 @@ public class PlayerControll : MonoBehaviour
     Vector2 moveInput = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
     moveVelocity = moveInput.normalized * speed;
 
-    //if (Input.GetKeyDown(KeyCode.Space))
-    //{
-    //  //Animation abspielen
-    //  animator.SetBool("IsFlying", true);
-    //}
+    if(Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow))
+    {
+      //Animation abspielen
+      animator.SetBool("RotatingLeft", true);
+      animator.SetBool("RoatingRight", false);
+    }
 
-    //if (Input.GetKeyDown(KeyCode.A))
-    //{
-    //  animator.SetBool("IsFlyingLeft", true);
-    //}
+    if (Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow))
+    {
+      animator.SetBool("RotatingRight", true);
+      animator.SetBool("RotatingLeft", false);
+    }
     //if (Input.GetKeyDown(KeyCode.LeftAlt))
     //{
     //  animator.SetBool("IsFlyingLeft", true);
@@ -63,6 +65,7 @@ public class PlayerControll : MonoBehaviour
     rb.MovePosition(rb.position + moveVelocity * Time.fixedDeltaTime);
     PositionMo();
 
+  
   }
 
  
