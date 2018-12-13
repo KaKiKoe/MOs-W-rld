@@ -47,7 +47,7 @@ public class PlayerControll : MonoBehaviour
     {
       //Animation abspielen
       animator.SetBool("RotatingLeft", true);
-      animator.SetBool("RoatingRight", false);
+      //animator.SetBool("RoatingRight", false);
     }
 
     if (Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow))
