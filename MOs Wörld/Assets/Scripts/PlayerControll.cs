@@ -6,6 +6,7 @@ public class PlayerControll : MonoBehaviour
 {
 
   public Animator animator;
+  public ParticleSystem bubbles;
 
   public float speed;
 
@@ -55,21 +56,22 @@ public class PlayerControll : MonoBehaviour
       animator.SetBool("RotatingLeft", false);
     }
 
-    if (rb.position.y < -5.4)
+    if (rb.position.y < -10.5)
     {
-      animator.SetBool("UnderWater", true);
+      bubbles.Play();
     }
-    
-   
+
+    else
+    {
+      bubbles.Pause();
+    }
   }
+
 
   private void FixedUpdate()
   {
     rb.MovePosition(rb.position + moveVelocity * Time.fixedDeltaTime);
     PositionMo();
 
-  
   }
-
- 
 }
