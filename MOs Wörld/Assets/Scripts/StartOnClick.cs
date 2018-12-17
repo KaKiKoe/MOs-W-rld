@@ -18,6 +18,8 @@ public class StartOnClick : MonoBehaviour {
     PlayerPrefs.SetInt("End_fail", 1);
     PlayerPrefs.SetInt("End_success", 1);
     PlayerPrefs.SetInt("Shop", 1);
+    PlayerPrefs.SetInt("Intro_Steuerung", 1);
+    PlayerPrefs.SetInt("Intro_Schießen", 1);
 
     if (PlayerPrefs.GetInt(sceneToLoad.ToString()) == 1)
     {
