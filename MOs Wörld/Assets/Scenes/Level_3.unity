@@ -193,6 +193,7 @@ GameObject:
   - component: {fileID: 7933171}
   - component: {fileID: 7933174}
   - component: {fileID: 7933175}
+  - component: {fileID: 7933176}
   m_Layer: 0
   m_Name: fish00
   m_TagString: Untagged
@@ -417,6 +418,18 @@ MonoBehaviour:
   tempPos: {x: 0, y: 0, z: 0}
   speed: 0
   sr: {fileID: 0}
+--- !u!114 &7933176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 7933170}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5915e7a424a92a46bfc80fb32e050bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelManager: {fileID: 0}
 --- !u!1 &19094841
 GameObject:
   m_ObjectHideFlags: 0
@@ -2547,6 +2560,7 @@ GameObject:
   - component: {fileID: 143665463}
   - component: {fileID: 143665462}
   - component: {fileID: 143665465}
+  - component: {fileID: 143665466}
   m_Layer: 0
   m_Name: fish05
   m_TagString: Untagged
@@ -2764,6 +2778,18 @@ MonoBehaviour:
   tempPos: {x: 0, y: 0, z: 0}
   speed: 0
   sr: {fileID: 0}
+--- !u!114 &143665466
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 143665460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5915e7a424a92a46bfc80fb32e050bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelManager: {fileID: 0}
 --- !u!4 &145971971 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4146710917755006, guid: b6c695a6b8a604641a9cb916203c679f,
@@ -3474,6 +3500,7 @@ GameObject:
   - component: {fileID: 150453457}
   - component: {fileID: 150453459}
   - component: {fileID: 150453456}
+  - component: {fileID: 150453460}
   m_Layer: 0
   m_Name: RedFish00
   m_TagString: Untagged
@@ -3964,6 +3991,18 @@ MonoBehaviour:
   tempPos: {x: 0, y: 0, z: 0}
   speed: 0
   sr: {fileID: 0}
+--- !u!114 &150453460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 150453455}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5915e7a424a92a46bfc80fb32e050bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelManager: {fileID: 0}
 --- !u!1 &151949066
 GameObject:
   m_ObjectHideFlags: 0
@@ -5736,6 +5775,7 @@ GameObject:
   - component: {fileID: 274817967}
   - component: {fileID: 274817966}
   - component: {fileID: 274817965}
+  - component: {fileID: 274817968}
   m_Layer: 0
   m_Name: RedFish00 (1)
   m_TagString: Untagged
@@ -6226,6 +6266,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &274817968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 274817963}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5915e7a424a92a46bfc80fb32e050bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelManager: {fileID: 0}
 --- !u!1 &283989810
 GameObject:
   m_ObjectHideFlags: 0
@@ -6532,6 +6584,8 @@ GameObject:
   - component: {fileID: 291458340}
   - component: {fileID: 291458339}
   - component: {fileID: 291458338}
+  - component: {fileID: 291458342}
+  - component: {fileID: 291458343}
   m_Layer: 0
   m_Name: fish08
   m_TagString: Untagged
@@ -6751,6 +6805,30 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &291458342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 291458336}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5915e7a424a92a46bfc80fb32e050bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelManager: {fileID: 0}
+--- !u!114 &291458343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 291458336}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5915e7a424a92a46bfc80fb32e050bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelManager: {fileID: 0}
 --- !u!4 &305007433 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4146710917755006, guid: b6c695a6b8a604641a9cb916203c679f,
@@ -10142,6 +10220,7 @@ GameObject:
   - component: {fileID: 480454025}
   - component: {fileID: 480454024}
   - component: {fileID: 480454028}
+  - component: {fileID: 480454029}
   m_Layer: 0
   m_Name: fish01
   m_TagString: Untagged
@@ -10361,6 +10440,18 @@ MonoBehaviour:
   tempPos: {x: 0, y: 0, z: 0}
   speed: 0
   sr: {fileID: 0}
+--- !u!114 &480454029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 480454023}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5915e7a424a92a46bfc80fb32e050bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelManager: {fileID: 0}
 --- !u!1 &495101694
 GameObject:
   m_ObjectHideFlags: 0
@@ -10788,6 +10879,7 @@ GameObject:
   - component: {fileID: 554646055}
   - component: {fileID: 554646054}
   - component: {fileID: 554646053}
+  - component: {fileID: 554646056}
   m_Layer: 0
   m_Name: RedFish02 (1)
   m_TagString: Untagged
@@ -11278,6 +11370,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &554646056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 554646051}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5915e7a424a92a46bfc80fb32e050bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelManager: {fileID: 0}
 --- !u!1001 &564108260
 Prefab:
   m_ObjectHideFlags: 0
@@ -12134,6 +12238,7 @@ GameObject:
   - component: {fileID: 624796899}
   - component: {fileID: 624796898}
   - component: {fileID: 624796901}
+  - component: {fileID: 624796902}
   m_Layer: 0
   m_Name: fish04
   m_TagString: Untagged
@@ -12356,6 +12461,18 @@ SpriteRenderer:
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!114 &624796901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 624796896}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5915e7a424a92a46bfc80fb32e050bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelManager: {fileID: 0}
+--- !u!114 &624796902
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -17049,6 +17166,7 @@ GameObject:
   - component: {fileID: 831281891}
   - component: {fileID: 831281894}
   - component: {fileID: 831281895}
+  - component: {fileID: 831281896}
   m_Layer: 0
   m_Name: fish03
   m_TagString: Untagged
@@ -17271,6 +17389,18 @@ PolygonCollider2D:
       - {x: 1.0849999, y: -0.42999998}
       - {x: 1.285, y: -0.22}
 --- !u!114 &831281895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 831281890}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5915e7a424a92a46bfc80fb32e050bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelManager: {fileID: 0}
+--- !u!114 &831281896
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -21476,6 +21606,7 @@ GameObject:
   - component: {fileID: 1093450586}
   - component: {fileID: 1093450585}
   - component: {fileID: 1093450584}
+  - component: {fileID: 1093450587}
   m_Layer: 0
   m_Name: RedFish02
   m_TagString: Untagged
@@ -21966,6 +22097,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1093450587
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1093450582}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5915e7a424a92a46bfc80fb32e050bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelManager: {fileID: 0}
 --- !u!1 &1105540683
 GameObject:
   m_ObjectHideFlags: 0
@@ -21977,6 +22120,7 @@ GameObject:
   - component: {fileID: 1105540687}
   - component: {fileID: 1105540686}
   - component: {fileID: 1105540685}
+  - component: {fileID: 1105540688}
   m_Layer: 0
   m_Name: RedFish03
   m_TagString: Untagged
@@ -22467,6 +22611,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1105540688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1105540683}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5915e7a424a92a46bfc80fb32e050bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelManager: {fileID: 0}
 --- !u!1 &1109160533
 GameObject:
   m_ObjectHideFlags: 0
@@ -22919,6 +23075,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1144550747}
+  - component: {fileID: 1144550748}
   m_Layer: 0
   m_Name: Birds
   m_TagString: Untagged
@@ -22943,6 +23100,18 @@ Transform:
   m_Father: {fileID: 1711779443}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1144550748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1144550746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5915e7a424a92a46bfc80fb32e050bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelManager: {fileID: 0}
 --- !u!1 &1155186211
 GameObject:
   m_ObjectHideFlags: 0
@@ -25562,6 +25731,7 @@ GameObject:
   - component: {fileID: 1300954073}
   - component: {fileID: 1300954072}
   - component: {fileID: 1300954071}
+  - component: {fileID: 1300954075}
   m_Layer: 0
   m_Name: fish06
   m_TagString: Untagged
@@ -25781,6 +25951,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1300954075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1300954069}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5915e7a424a92a46bfc80fb32e050bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelManager: {fileID: 0}
 --- !u!1 &1314855972
 GameObject:
   m_ObjectHideFlags: 0
@@ -33182,6 +33364,7 @@ GameObject:
   - component: {fileID: 1461536897}
   - component: {fileID: 1461536896}
   - component: {fileID: 1461536895}
+  - component: {fileID: 1461536898}
   m_Layer: 0
   m_Name: RedFish01
   m_TagString: Untagged
@@ -33672,6 +33855,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1461536898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1461536893}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5915e7a424a92a46bfc80fb32e050bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelManager: {fileID: 0}
 --- !u!1 &1466481734
 GameObject:
   m_ObjectHideFlags: 0
@@ -34859,6 +35054,7 @@ GameObject:
   - component: {fileID: 1534757663}
   - component: {fileID: 1534757662}
   - component: {fileID: 1534757661}
+  - component: {fileID: 1534757664}
   m_Layer: 0
   m_Name: RedFish01 (1)
   m_TagString: Untagged
@@ -35349,6 +35545,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1534757664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1534757659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5915e7a424a92a46bfc80fb32e050bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelManager: {fileID: 0}
 --- !u!1 &1537842544
 GameObject:
   m_ObjectHideFlags: 0
@@ -35482,7 +35690,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1537842544}
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalRotation: {x: 0, y: 1, z: -0, w: 0}
   m_LocalPosition: {x: -67, y: 0, z: 0}
   m_LocalScale: {x: 0.7, y: 0.7, z: 0.7}
   m_Children:
@@ -38067,6 +38275,7 @@ GameObject:
   - component: {fileID: 1722364058}
   - component: {fileID: 1722364057}
   - component: {fileID: 1722364061}
+  - component: {fileID: 1722364062}
   m_Layer: 0
   m_Name: fish02
   m_TagString: Untagged
@@ -38284,6 +38493,18 @@ MonoBehaviour:
   tempPos: {x: 0, y: 0, z: 0}
   speed: 0
   sr: {fileID: 0}
+--- !u!114 &1722364062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1722364056}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5915e7a424a92a46bfc80fb32e050bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelManager: {fileID: 0}
 --- !u!4 &1756722900 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4146710917755006, guid: b6c695a6b8a604641a9cb916203c679f,
@@ -39537,6 +39758,7 @@ GameObject:
   - component: {fileID: 1810715070}
   - component: {fileID: 1810715069}
   - component: {fileID: 1810715068}
+  - component: {fileID: 1810715072}
   m_Layer: 0
   m_Name: fish07
   m_TagString: Untagged
@@ -39756,6 +39978,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1810715072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1810715066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5915e7a424a92a46bfc80fb32e050bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelManager: {fileID: 0}
 --- !u!1 &1814848210
 GameObject:
   m_ObjectHideFlags: 0
@@ -43694,6 +43928,7 @@ GameObject:
   - component: {fileID: 2102510894}
   - component: {fileID: 2102510893}
   - component: {fileID: 2102510892}
+  - component: {fileID: 2102510895}
   m_Layer: 0
   m_Name: RedFish03 (1)
   m_TagString: Untagged
@@ -44184,3 +44419,15 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2102510895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2102510890}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5915e7a424a92a46bfc80fb32e050bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelManager: {fileID: 0}

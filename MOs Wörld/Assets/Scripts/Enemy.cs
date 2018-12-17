@@ -31,7 +31,6 @@ public class Enemy : MonoBehaviour {
       //Gegner zerstören
     if (collision.gameObject.tag == "Bullet")
     {
-
       Destroy (collision.gameObject, 0.01f);
       Destroy (gameObject, 0.01f);
     }
