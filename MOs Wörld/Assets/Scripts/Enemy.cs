@@ -27,5 +27,13 @@ public class Enemy : MonoBehaviour {
       levelManager.RespawnPlayer();
       Debug.Log("du wirst an den currentCheckpoint versetzt");
     }
+
+      //Gegner zerstören
+    if (collision.gameObject.tag == "Bullet")
+    {
+
+      Destroy (collision.gameObject, 0.01f);
+      Destroy (gameObject, 0.01f);
+    }
   }
 }
