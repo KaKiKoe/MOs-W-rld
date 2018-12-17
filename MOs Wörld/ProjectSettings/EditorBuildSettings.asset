@@ -6,11 +6,17 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Intro_Steuerung.unity
+    guid: f7cf678b2abed624dab681ba2a78d885
+  - enabled: 1
     path: Assets/Scenes/Level_1.unity
     guid: 260fb325a2f580a4f9c5aa4f16accd9f
   - enabled: 1
     path: Assets/Scenes/Level_2.unity
     guid: 4cea36827be7cbd48a8b05fd9a4d1cbd
+  - enabled: 1
+    path: "Assets/Scenes/Intro_Schie\xDFen.unity"
+    guid: eef2d1e0ad7d0704480b658584eb9a8f
   - enabled: 1
     path: Assets/Scenes/Level_3.unity
     guid: 2379e2670c451084385c565cb19c48be
