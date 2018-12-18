@@ -19921,7 +19921,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28952da18c2d56a49a80c3d626de0ac9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: "Intro_Schie\xDFen"
+  sceneToLoad: Level_Selection
 --- !u!61 &1244266736
 BoxCollider2D:
   m_ObjectHideFlags: 0
