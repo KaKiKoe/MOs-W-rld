@@ -8,20 +8,16 @@ using UnityEngine.SceneManagement;
 public class Player : MonoBehaviour 
 
 {
-  int starCounter;
+  private int coinCounter;
+  private int starCounter;
   public Text scoreText;
   public Text starText;
   public Text highScoreText;
 
-  StayAlive stayAlive;
-  int coinCounter;
-
   // Use this for initialization
   void Start ()
   {
-    stayAlive = GameObject.Find("StayAlive").GetComponent<StayAlive>();
-
-    coinCounter = stayAlive.getCoinCounter();
+    coinCounter = 0;
     starCounter = 0; 
 
     //lade den aktuellen HighScore
@@ -50,7 +46,6 @@ public class Player : MonoBehaviour
       Destroy(collision.gameObject, audio.clip.length);
 
       coinCounter++;
-      stayAlive.setCoinCounter(coinCounter);
       scoreText.text = coinCounter.ToString();
 
       if (coinCounter > PlayerPrefs.GetInt("Highscore"))
