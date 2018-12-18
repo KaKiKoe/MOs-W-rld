@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+
+
 public class Player : MonoBehaviour 
 
 {
@@ -73,6 +76,19 @@ public class Player : MonoBehaviour
 
       starCounter++;
       starText.text = starCounter.ToString();
+
+
+      // Beim Sammeln von 2 von 3 Sternen nächste Szene freischalten
+      if (starCounter >= 2)
+      {
+        int nextbuildindex = SceneManager.GetActiveScene().buildIndex +1;
+        // Fortschritt speichern
+        if (PlayerPrefs.GetInt(SceneManager.GetActiveScene().buildIndex+1.ToString()) == 0)
+        {
+          //Level noch nicht aktiv -> freischalten
+          PlayerPrefs.SetInt(SceneManager.GetActiveScene().buildIndex+1.ToString(), 1);
+        }
+      }
     }
   }
 }
