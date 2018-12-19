@@ -27171,6 +27171,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 339796a8aca20a741b91e9d6e8acec9f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  starCounter: 0
   scoreText: {fileID: 1338202983}
   starText: {fileID: 254318559}
   highScoreText: {fileID: 1646307978}
@@ -27288,6 +27289,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   breathBarSlider: {fileID: 1409958201}
+  BubbleRespawnTimer: 2
 --- !u!1 &1544394484
 GameObject:
   m_ObjectHideFlags: 0

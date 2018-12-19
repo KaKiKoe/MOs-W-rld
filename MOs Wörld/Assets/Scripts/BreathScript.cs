@@ -6,6 +6,13 @@ using UnityEngine.SceneManagement;
 
 public class BreathScript : MonoBehaviour
 {
+  IEnumerator Example(Collider2D collision)
+  {
+    yield return new WaitForSeconds(5);
+
+    //Bubble nach x Sekunden wieder aktivieren
+    collision.gameObject.SetActive(true);
+  }
 
   public Slider breathBarSlider;  
   private Rigidbody2D rb;
@@ -46,17 +53,28 @@ public class BreathScript : MonoBehaviour
     if (collision.tag == "Bubble")
     {
       //Grafik deaktivieren
-      collision.gameObject.GetComponent<Renderer>().enabled = false;
+      //collision.gameObject.GetComponent<Renderer>().enabled = false;
 
       // Sound des Bubbles abspielen
       //AudioSource audio = collision.gameObject.GetComponent<AudioSource>();
       //audio.Play();
 
       //Bubble zerstören
-      Destroy(collision.gameObject); //, audio.clip.length);
+      //Destroy(collision.gameObject); //, audio.clip.length);
+
+
+     
 
       //Atemanzeige auffüllen
       breathBarSlider.value += .500f;
+
+
+      // Bubble deaktivieren
+      collision.gameObject.SetActive(false);
+
+      // Bubble respawn aufrufen
+      StartCoroutine(Example(collision));
+      
     }
   }
 }
