@@ -26,7 +26,7 @@ public class NextLevel : MonoBehaviour
     // Fortschritt speichern
     if (PlayerPrefs.GetInt(sceneToLoad.ToString()) == 0)
     {
-      //Level noch nicht aktiv -> freischalten
+      //Level jetzt freischalten
       PlayerPrefs.SetInt(sceneToLoad.ToString(), 1);
     }
   }
