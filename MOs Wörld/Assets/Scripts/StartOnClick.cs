@@ -8,10 +8,9 @@ public class StartOnClick : MonoBehaviour {
 
   public string sceneToLoad;
 
-
   void Start ()
   {
-    PlayerPrefs.DeleteAll(); // Zum (wieder) Sperren von Leveln!
+    PlayerPrefs.DeleteAll(); // Zum (erneuten) Sperren von Leveln!
 
 
     // Level_1 und Buttons etc. auf aktiv schalten!
@@ -23,8 +22,8 @@ public class StartOnClick : MonoBehaviour {
     PlayerPrefs.SetInt("Shop", 1);
     PlayerPrefs.SetInt("Intro_Steuerung", 1);
     PlayerPrefs.SetInt("Level_3", 1);
-
-
+    
+    // Buttons aktivieren bzw. deaktivieren
     if (PlayerPrefs.GetInt(sceneToLoad.ToString()) == 1)
     {
       // Level aktiv -> Button aktivieren
