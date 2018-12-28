@@ -17430,7 +17430,7 @@ MonoBehaviour:
   health: 3
   healthText: {fileID: 1512988473}
   TimerText: {fileID: 1129857478}
-  roundTimer: 100
+  roundTimer: 160
 --- !u!4 &1118872694
 Transform:
   m_ObjectHideFlags: 0
@@ -27510,6 +27510,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 339796a8aca20a741b91e9d6e8acec9f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  starCounter: 0
   scoreText: {fileID: 618561698}
   starText: {fileID: 1707862206}
   highScoreText: {fileID: 1612370632}
