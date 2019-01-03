@@ -426,7 +426,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7933170}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e5915e7a424a92a46bfc80fb32e050bf, type: 3}
+  m_Script: {fileID: 11500000, guid: 5baff034b4bcdfc4bb927997d04c88b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
@@ -2166,6 +2166,7 @@ GameObject:
   - component: {fileID: 117161862}
   - component: {fileID: 117161861}
   - component: {fileID: 117161863}
+  - component: {fileID: 117161864}
   m_Layer: 0
   m_Name: Kroko00
   m_TagString: Untagged
@@ -2470,6 +2471,18 @@ PolygonCollider2D:
       - {x: 0.7, y: -1.9599999}
       - {x: 0.66999996, y: -1.9799999}
       - {x: 0.68, y: -1.99}
+--- !u!114 &117161864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 117161859}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5baff034b4bcdfc4bb927997d04c88b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelManager: {fileID: 0}
 --- !u!1001 &127065917
 Prefab:
   m_ObjectHideFlags: 0
@@ -2786,7 +2799,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 143665460}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e5915e7a424a92a46bfc80fb32e050bf, type: 3}
+  m_Script: {fileID: 11500000, guid: 5baff034b4bcdfc4bb927997d04c88b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
@@ -3999,7 +4012,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 150453455}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e5915e7a424a92a46bfc80fb32e050bf, type: 3}
+  m_Script: {fileID: 11500000, guid: 5baff034b4bcdfc4bb927997d04c88b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
@@ -6412,7 +6425,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 274817963}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e5915e7a424a92a46bfc80fb32e050bf, type: 3}
+  m_Script: {fileID: 11500000, guid: 5baff034b4bcdfc4bb927997d04c88b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
@@ -6723,7 +6736,6 @@ GameObject:
   - component: {fileID: 291458339}
   - component: {fileID: 291458338}
   - component: {fileID: 291458342}
-  - component: {fileID: 291458343}
   m_Layer: 0
   m_Name: fish08
   m_TagString: Untagged
@@ -6951,19 +6963,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 291458336}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e5915e7a424a92a46bfc80fb32e050bf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  levelManager: {fileID: 0}
---- !u!114 &291458343
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 291458336}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e5915e7a424a92a46bfc80fb32e050bf, type: 3}
+  m_Script: {fileID: 11500000, guid: 5baff034b4bcdfc4bb927997d04c88b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
@@ -7558,6 +7558,18 @@ PolygonCollider2D:
       - {x: -0.55, y: -2.78}
       - {x: -0.42999998, y: -2.53}
       - {x: -0.29, y: -2.56}
+--- !u!114 &372662133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 372662129}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5baff034b4bcdfc4bb927997d04c88b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelManager: {fileID: 0}
 --- !u!1 &393796982
 GameObject:
   m_ObjectHideFlags: 0
@@ -9611,6 +9623,18 @@ PolygonCollider2D:
       - {x: -0.55, y: -2.78}
       - {x: -0.42999998, y: -2.53}
       - {x: -0.29, y: -2.56}
+--- !u!114 &432261504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 432261500}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5baff034b4bcdfc4bb927997d04c88b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelManager: {fileID: 0}
 --- !u!1 &444830291
 GameObject:
   m_ObjectHideFlags: 0
@@ -10586,7 +10610,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 480454023}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e5915e7a424a92a46bfc80fb32e050bf, type: 3}
+  m_Script: {fileID: 11500000, guid: 5baff034b4bcdfc4bb927997d04c88b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
@@ -11516,7 +11540,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 554646051}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e5915e7a424a92a46bfc80fb32e050bf, type: 3}
+  m_Script: {fileID: 11500000, guid: 5baff034b4bcdfc4bb927997d04c88b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
@@ -12376,7 +12400,6 @@ GameObject:
   - component: {fileID: 624796899}
   - component: {fileID: 624796898}
   - component: {fileID: 624796901}
-  - component: {fileID: 624796902}
   m_Layer: 0
   m_Name: fish04
   m_TagString: Untagged
@@ -12606,19 +12629,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 624796896}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e5915e7a424a92a46bfc80fb32e050bf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  levelManager: {fileID: 0}
---- !u!114 &624796902
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 624796896}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e5915e7a424a92a46bfc80fb32e050bf, type: 3}
+  m_Script: {fileID: 11500000, guid: 5baff034b4bcdfc4bb927997d04c88b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
@@ -13086,6 +13097,7 @@ GameObject:
   - component: {fileID: 712702816}
   - component: {fileID: 712702815}
   - component: {fileID: 712702814}
+  - component: {fileID: 712702817}
   m_Layer: 0
   m_Name: Kroko01
   m_TagString: Untagged
@@ -13390,6 +13402,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &712702817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 712702812}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5baff034b4bcdfc4bb927997d04c88b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelManager: {fileID: 0}
 --- !u!1 &718542335
 GameObject:
   m_ObjectHideFlags: 0
@@ -15527,6 +15551,7 @@ GameObject:
   - component: {fileID: 766144324}
   - component: {fileID: 766144323}
   - component: {fileID: 766144322}
+  - component: {fileID: 766144325}
   m_Layer: 0
   m_Name: Kroko04
   m_TagString: Untagged
@@ -15831,6 +15856,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &766144325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 766144320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5baff034b4bcdfc4bb927997d04c88b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelManager: {fileID: 0}
 --- !u!1 &768643459
 GameObject:
   m_ObjectHideFlags: 0
@@ -17304,7 +17341,6 @@ GameObject:
   - component: {fileID: 831281891}
   - component: {fileID: 831281894}
   - component: {fileID: 831281895}
-  - component: {fileID: 831281896}
   m_Layer: 0
   m_Name: fish03
   m_TagString: Untagged
@@ -17534,19 +17570,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 831281890}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e5915e7a424a92a46bfc80fb32e050bf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  levelManager: {fileID: 0}
---- !u!114 &831281896
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 831281890}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e5915e7a424a92a46bfc80fb32e050bf, type: 3}
+  m_Script: {fileID: 11500000, guid: 5baff034b4bcdfc4bb927997d04c88b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
@@ -19250,6 +19274,7 @@ GameObject:
   - component: {fileID: 905084590}
   - component: {fileID: 905084589}
   - component: {fileID: 905084588}
+  - component: {fileID: 905084591}
   m_Layer: 0
   m_Name: Kroko05
   m_TagString: Untagged
@@ -19554,6 +19579,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &905084591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 905084586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5baff034b4bcdfc4bb927997d04c88b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelManager: {fileID: 0}
 --- !u!1 &911855971
 GameObject:
   m_ObjectHideFlags: 0
@@ -21470,6 +21507,7 @@ GameObject:
   - component: {fileID: 1080953091}
   - component: {fileID: 1080953090}
   - component: {fileID: 1080953089}
+  - component: {fileID: 1080953092}
   m_Layer: 0
   m_Name: Kroko03
   m_TagString: Untagged
@@ -21774,6 +21812,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1080953092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1080953087}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5baff034b4bcdfc4bb927997d04c88b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelManager: {fileID: 0}
 --- !u!1 &1093450582
 GameObject:
   m_ObjectHideFlags: 0
@@ -22284,7 +22334,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1093450582}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e5915e7a424a92a46bfc80fb32e050bf, type: 3}
+  m_Script: {fileID: 11500000, guid: 5baff034b4bcdfc4bb927997d04c88b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
@@ -22798,7 +22848,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1105540683}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e5915e7a424a92a46bfc80fb32e050bf, type: 3}
+  m_Script: {fileID: 11500000, guid: 5baff034b4bcdfc4bb927997d04c88b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
@@ -23287,7 +23337,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1144550746}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e5915e7a424a92a46bfc80fb32e050bf, type: 3}
+  m_Script: {fileID: 11500000, guid: 5baff034b4bcdfc4bb927997d04c88b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
@@ -26172,7 +26222,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1300954069}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e5915e7a424a92a46bfc80fb32e050bf, type: 3}
+  m_Script: {fileID: 11500000, guid: 5baff034b4bcdfc4bb927997d04c88b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
@@ -33331,6 +33381,18 @@ PolygonCollider2D:
       - {x: -0.55, y: -2.78}
       - {x: -0.42999998, y: -2.53}
       - {x: -0.29, y: -2.56}
+--- !u!114 &1438790107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1438790103}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5baff034b4bcdfc4bb927997d04c88b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelManager: {fileID: 0}
 --- !u!1 &1442745366
 GameObject:
   m_ObjectHideFlags: 0
@@ -34076,7 +34138,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1461536893}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e5915e7a424a92a46bfc80fb32e050bf, type: 3}
+  m_Script: {fileID: 11500000, guid: 5baff034b4bcdfc4bb927997d04c88b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
@@ -35766,7 +35828,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1534757659}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e5915e7a424a92a46bfc80fb32e050bf, type: 3}
+  m_Script: {fileID: 11500000, guid: 5baff034b4bcdfc4bb927997d04c88b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
@@ -37213,6 +37275,18 @@ PolygonCollider2D:
       - {x: -0.55, y: -2.78}
       - {x: -0.42999998, y: -2.53}
       - {x: -0.29, y: -2.56}
+--- !u!114 &1622500943
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1622500939}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5baff034b4bcdfc4bb927997d04c88b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelManager: {fileID: 0}
 --- !u!1001 &1625795348
 Prefab:
   m_ObjectHideFlags: 0
@@ -38055,9 +38129,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletSpawn: {fileID: 0}
   player: {fileID: 180923930}
-  bulletPrefab: {fileID: 50892550145375238, guid: ca401bbdc7c03b14bab6d22ee8f9d6fe,
+  bulletPrefab: {fileID: 50708201819308354, guid: 299bd8367d383ce48b8109a878949343,
     type: 2}
-  bulletSpeed: 1000
+  bulletSpeed: 2000
 --- !u!1 &1703191777
 GameObject:
   m_ObjectHideFlags: 0
@@ -38790,7 +38864,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1722364056}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e5915e7a424a92a46bfc80fb32e050bf, type: 3}
+  m_Script: {fileID: 11500000, guid: 5baff034b4bcdfc4bb927997d04c88b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
@@ -40275,7 +40349,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1810715066}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e5915e7a424a92a46bfc80fb32e050bf, type: 3}
+  m_Script: {fileID: 11500000, guid: 5baff034b4bcdfc4bb927997d04c88b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}
@@ -40582,6 +40656,7 @@ GameObject:
   - component: {fileID: 1853455998}
   - component: {fileID: 1853455997}
   - component: {fileID: 1853455996}
+  - component: {fileID: 1853455999}
   m_Layer: 0
   m_Name: Kroko02
   m_TagString: Untagged
@@ -40886,6 +40961,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1853455999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1853455994}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5baff034b4bcdfc4bb927997d04c88b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelManager: {fileID: 0}
 --- !u!1001 &1863095221
 Prefab:
   m_ObjectHideFlags: 0
@@ -44566,7 +44653,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2102510890}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e5915e7a424a92a46bfc80fb32e050bf, type: 3}
+  m_Script: {fileID: 11500000, guid: 5baff034b4bcdfc4bb927997d04c88b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   levelManager: {fileID: 0}

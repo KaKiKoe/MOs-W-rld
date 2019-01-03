@@ -10,7 +10,8 @@ public class PlayerBullet : MonoBehaviour {
   public Rigidbody2D bulletPrefab;
   Rigidbody2D clone;
 
-  public float bulletSpeed = 500f; 
+
+  public float bulletSpeed = 1000f; 
 
 	// Use this for initialization
 	void Start () {
