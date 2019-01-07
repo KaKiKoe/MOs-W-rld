@@ -9,6 +9,7 @@ public class PlayerControll : MonoBehaviour
   public ParticleSystem bubbles;
 
   public Sprite MoUnderWater;
+  public Sprite None;
 
   public float speed;
 
@@ -34,6 +35,8 @@ public class PlayerControll : MonoBehaviour
     else 
     {
       rb.gravityScale = 15;
+      this.GetComponent<SpriteRenderer>().sprite = None;
+      
     }
 
     if (rb.position.y == -5.5)
