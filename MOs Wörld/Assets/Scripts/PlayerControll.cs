@@ -8,6 +8,8 @@ public class PlayerControll : MonoBehaviour
   public Animator animator;
   public ParticleSystem bubbles;
 
+  public Sprite MoUnderWater;
+
   public float speed;
 
   private Rigidbody2D rb;
@@ -26,11 +28,14 @@ public class PlayerControll : MonoBehaviour
     if (rb.position.y < -5.5)
     {
       rb.gravityScale = -15;
+      this.GetComponent<SpriteRenderer>().sprite = MoUnderWater;
     }
+  
     else 
     {
       rb.gravityScale = 15;
-    } 
+    }
+
     if (rb.position.y == -5.5)
     {
       rb.gravityScale = 0;
@@ -43,7 +48,7 @@ public class PlayerControll : MonoBehaviour
     Vector2 moveInput = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
     moveVelocity = moveInput.normalized * speed;
 
-    if(Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow))
+    if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow))
     {
       //Animation abspielen
       animator.SetBool("RotatingLeft", true);
@@ -59,11 +64,13 @@ public class PlayerControll : MonoBehaviour
     if (rb.position.y < -10.5)
     {
       bubbles.Play();
+
     }
 
     else
     {
       bubbles.Pause();
+      
     }
   }
 

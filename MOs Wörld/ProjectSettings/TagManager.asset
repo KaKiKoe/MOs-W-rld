@@ -9,6 +9,7 @@ TagManager:
   - BreathDisplay
   - Bubble
   - Bullet
+  - Kill
   layers:
   - Default
   - TransparentFX
