@@ -30,21 +30,17 @@ public class EnemyDestruction : MonoBehaviour {
       Destroy(collision.gameObject);
   
 
-      if(health < 2)
+      if(health < 1)
       {
         Destroy(gameObject);
 
       }
       health--;
 
-      //Change Skin by Hit
-      if (health == 2)
+      //Second Skin after Hit
+      if (health == 1)
       {
         this.GetComponent<SpriteRenderer>().sprite = damage1;
-      }
-      else if(health == 1)
-      {
-        this.GetComponent<SpriteRenderer>().sprite = damage2;
       }
     }
   }
