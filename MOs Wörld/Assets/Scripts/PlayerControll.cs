@@ -32,11 +32,14 @@ public class PlayerControll : MonoBehaviour
       this.GetComponent<SpriteRenderer>().sprite = MoUnderWater;
     }
   
+   
     else 
     {
       rb.gravityScale = 15;
-      this.GetComponent<SpriteRenderer>().sprite = None;
-      
+      if (rb.position.y > -5.0)
+      {
+        this.GetComponent<SpriteRenderer>().sprite = None;
+      }
     }
 
     if (rb.position.y == -5.5)
