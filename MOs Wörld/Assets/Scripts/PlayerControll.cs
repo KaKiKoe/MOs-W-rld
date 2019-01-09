@@ -31,20 +31,19 @@ public class PlayerControll : MonoBehaviour
       rb.gravityScale = -15;
       this.GetComponent<SpriteRenderer>().sprite = MoUnderWater;
     }
-  
-   
-    else 
+    else
     {
       rb.gravityScale = 15;
+
       if (rb.position.y > -5.0)
       {
         this.GetComponent<SpriteRenderer>().sprite = None;
       }
-    }
 
-    if (rb.position.y == -5.5)
+      if(rb.position.y >-5.5 && rb.position.y < -5.2)
     {
-      rb.gravityScale = 0;
+        rb.gravityScale = 0; 
+    }
     }
   }
 
