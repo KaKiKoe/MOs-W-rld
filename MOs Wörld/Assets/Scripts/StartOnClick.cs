@@ -10,7 +10,7 @@ public class StartOnClick : MonoBehaviour {
 
   void Start ()
   {
-    PlayerPrefs.DeleteAll(); // Zum (erneuten) Sperren von Leveln!
+    //PlayerPrefs.DeleteAll(); // Zum (erneuten) Sperren von Leveln!
 
 
     // Level_1 und Buttons etc. auf aktiv schalten!
