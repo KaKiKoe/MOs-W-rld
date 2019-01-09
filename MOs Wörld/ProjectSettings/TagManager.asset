@@ -10,6 +10,7 @@ TagManager:
   - Bubble
   - Bullet
   - Kill
+  - Levelende
   layers:
   - Default
   - TransparentFX

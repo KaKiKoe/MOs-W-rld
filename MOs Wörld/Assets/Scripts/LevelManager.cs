@@ -31,7 +31,8 @@ public class LevelManager : MonoBehaviour {
     {
       //Spiel beenden
       Debug.Log("Spiel wird beendet");
-      Application.Quit();
+      SceneManager.LoadScene("Main_Menu");
+      //Application.Quit();
     }
     
     roundTimer = roundTimer - Time.deltaTime;

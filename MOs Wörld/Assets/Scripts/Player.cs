@@ -14,9 +14,15 @@ public class Player : MonoBehaviour
   public Text starText;
   public Text highScoreText;
 
+  public PlayerControll playercontroll;
+  private Rigidbody2D rb;
+
   // Use this for initialization
   void Start ()
   {
+    playercontroll = FindObjectOfType<PlayerControll>();
+    rb = GetComponent<Rigidbody2D>();
+
     coinCounter = 0;
     starCounter = 0; 
 
@@ -29,7 +35,7 @@ public class Player : MonoBehaviour
 	
 	// Update is called once per frame
 	void Update () {
-		
+    lvlfreigeschaltet();
 	}
   private void OnTriggerEnter2D(Collider2D collision)
   {
@@ -71,28 +77,36 @@ public class Player : MonoBehaviour
 
       starCounter++;
       starText.text = starCounter.ToString();
+    }
+  }
 
-      // Beim Sammeln von 2 von 3 Sternen nächste Szene freischalten
-      if (starCounter >= 2)
+  void lvlfreigeschaltet (){
+    // Beim Sammeln von 2 von 3 Sternen nächste Szene freischalten
+
+
+    if (starCounter >= 2 && rb.position.x > 440)
+    {
+      Debug.Log("Das nächste Level wurde freigeschalten");
+
+      // aktuelle Szene abfragen
+      string scenename = SceneManager.GetActiveScene().name;
+
+
+      if (scenename == "Level_1")
       {
-        Debug.Log("Das nächste Level wurde freigeschalten");
-
-        // aktuelle Szene abfragen
-        string scenename = SceneManager.GetActiveScene().name; 
-
-
-        if (scenename == "Level_1")
-        {
-          PlayerPrefs.SetInt("Level_2", 1);
-          Debug.Log("Level 2 Wurde freigeschalten");
-        }
-
-        else if (scenename == "Level_2")
-        {
-          Debug.Log("Lvl 3 wurde freigeschalten");
-          PlayerPrefs.SetInt("Intro_Schießen", 1);
-        }
+        PlayerPrefs.SetInt("Level_2", 1);
+        Debug.Log("Level 2 Wurde freigeschalten");
       }
+
+      else if (scenename == "Level_2")
+      {
+        Debug.Log("Lvl 3 wurde freigeschalten");
+        PlayerPrefs.SetInt("Intro_Schießen", 1);
+      }
+    }
+    else
+    {
+      Debug.Log("nicht genug Sterne oder Ziel noch nicht erreicht");
     }
   }
 }
