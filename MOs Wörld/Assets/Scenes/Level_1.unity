@@ -18100,7 +18100,7 @@ MonoBehaviour:
   health: 3
   healthText: {fileID: 1643470654}
   TimerText: {fileID: 1318691687}
-  roundTimer: 160
+  roundTimer: 120
 --- !u!4 &1118872694
 Transform:
   m_ObjectHideFlags: 0
@@ -20257,7 +20257,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 100
+  m_Text: 120
 --- !u!222 &1318691688
 CanvasRenderer:
   m_ObjectHideFlags: 0

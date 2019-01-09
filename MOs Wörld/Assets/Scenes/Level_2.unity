@@ -18226,7 +18226,7 @@ MonoBehaviour:
   health: 3
   healthText: {fileID: 1512988473}
   TimerText: {fileID: 1129857478}
-  roundTimer: 160
+  roundTimer: 120
 --- !u!4 &1118872694
 Transform:
   m_ObjectHideFlags: 0
@@ -18712,7 +18712,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 100
+  m_Text: 120
 --- !u!222 &1129857479
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -28114,7 +28114,7 @@ GameObject:
   - component: {fileID: 1537842546}
   - component: {fileID: 1537842551}
   - component: {fileID: 1537842547}
-  - component: {fileID: 1537842552}
+  - component: {fileID: 1537842545}
   m_Layer: 0
   m_Name: Player Mo
   m_TagString: Player
@@ -28122,6 +28122,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1537842545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1537842544}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12f4c68af5ab4664faf78d8cd4f9dbb6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  breathBarSlider: {fileID: 1416525103}
 --- !u!114 &1537842546
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28256,18 +28268,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &1537842552
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1537842544}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 064b137655a796444a2c4ff841864f1f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  breathBarSlider: {fileID: 1416525103}
 --- !u!1 &1573860741
 GameObject:
   m_ObjectHideFlags: 0
