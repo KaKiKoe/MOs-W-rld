@@ -77,7 +77,7 @@ public class Player : MonoBehaviour
       {
         Debug.Log("Das nächste Level wurde freigeschalten");
 
-        // aktuelle Szene abfragen 
+        // aktuelle Szene abfragen
         string scenename = SceneManager.GetActiveScene().name; 
 
 
@@ -86,8 +86,10 @@ public class Player : MonoBehaviour
           PlayerPrefs.SetInt("Level_2", 1);
           Debug.Log("Level 2 Wurde freigeschalten");
         }
+
         else if (scenename == "Level_2")
         {
+          Debug.Log("Lvl 3 wurde freigeschalten");
           PlayerPrefs.SetInt("Intro_Schießen", 1);
         }
       }

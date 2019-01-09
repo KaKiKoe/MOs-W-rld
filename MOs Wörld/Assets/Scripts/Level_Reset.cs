@@ -10,7 +10,7 @@ public class Level_Reset : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-    PlayerPrefs.DeleteAll(); // Zum (erneuten) Sperren von Leveln!
+    
   }
 	
 	// Update is called once per frame
@@ -18,7 +18,9 @@ public class Level_Reset : MonoBehaviour {
 	}
 
   public void ReloadScene(){
-    Debug.Log("lade scene");
+
+    PlayerPrefs.DeleteAll(); // Zum (erneuten) Sperren von Leveln!
+    Debug.Log("lade scene nach reset button");
     SceneManager.LoadScene("Level_Selection");
   }
 }
