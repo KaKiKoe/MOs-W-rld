@@ -16,6 +16,7 @@ public class StartOnClick : MonoBehaviour {
     // Level_1 und Buttons etc. auf aktiv schalten!
     PlayerPrefs.SetInt("Level_1", 1);
     PlayerPrefs.SetInt("Main_Menu", 1);
+    PlayerPrefs.SetInt("Intro_Allgemein", 1);
     PlayerPrefs.SetInt("Level_Selection", 1);
     PlayerPrefs.SetInt("End_fail", 1);
     PlayerPrefs.SetInt("End_success", 1);
