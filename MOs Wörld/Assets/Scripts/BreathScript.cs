@@ -35,11 +35,11 @@ public class BreathScript : MonoBehaviour
     {
       if (rb.position.y < -6)
       {
-        breathBarSlider.value -= .0025f;
+        breathBarSlider.value -= .003f;
       }
       else
       {
-        breathBarSlider.value += .005f;
+        breathBarSlider.value += .006f;
       }
     }
     else 

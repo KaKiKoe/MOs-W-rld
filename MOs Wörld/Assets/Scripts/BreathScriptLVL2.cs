@@ -39,8 +39,8 @@ public class BreathScriptLVL2 : MonoBehaviour
       }
       else
       {
-        breathBarSlider.value += .006f;
-        breathBarSlider.value += .0012f;
+        breathBarSlider.value += .007f;
+        breathBarSlider.value += .0014f;
       }
     }
     else
